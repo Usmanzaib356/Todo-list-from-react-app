@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+#font{
+    font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* body css start*/
+body{
+    background-color: #0F6292;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
 }
+/* body css end*/
+
+
+/* buttun css start*/
+#btn{
+    margin-bottom: 40px;
+}
+#delete-btn{
+   text-decoration: none;
+}
+/* buttun css end*/
+
+
+/* input box css start*/
+#inbox{
+    background-color: #181823;
+}
+
+#form3{
+    background-color: #181823  ;
+}
+/* input box css end*/
+
+li.striked {
+    text-decoration: line-through;
+    color: black;
+  }
+  
